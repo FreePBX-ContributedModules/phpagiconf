@@ -8,6 +8,6 @@
 		<phpagiconf>PHPAGI Config</phpagiconf>
 	</menuitems>
 	<location>release/phpagiconf-1.0.tgz</location>
-	<md5sum>xx</md5sum>
+	<md5sum>0bd7025bc8c903f84037b9077e7bf710</md5sum>
 	<info>http://freepbx.org/wiki/phpagiconf</info>
 </module>
