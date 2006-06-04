@@ -1,0 +1,13 @@
+<module>
+	<rawname>phpagiconf</rawname>
+	<name>PHPAGI Config</name>
+	<version>1.0</version>
+	<type>tool</type>
+	<category>Config</category>
+	<menuitems>
+		<phpagiconf>PHPAGI Config</phpagiconf>
+	</menuitems>
+	<location>release/phpagiconf-1.0.tgz</location>
+	<md5sum>xx</md5sum>
+	<info>http://freepbx.org/wiki/phpagiconf</info>
+</module>

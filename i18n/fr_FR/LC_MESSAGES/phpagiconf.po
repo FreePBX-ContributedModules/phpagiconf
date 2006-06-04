@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Xavier Ourcière <xourciere@propolys.com>\n"
+"POT-Creation-Date: 2006-05-20 00:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Xavier Ourcière <xourciere@propolys.com>\n"
+"Language-Team: French <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.inc.php:32
+msgid "Error writing the phpagi.conf file."
+msgstr "Erreur lors de l'écriture du fichier phpagi.conf"
+
+#: page.phpagiconf.php:58
+msgid "PHPAGI Config:"
+msgstr "Configuration PHPAGI:"
+
+#: page.phpagiconf.php:63
+msgid "Main config:"
+msgstr "Paramètres principaux:"
+
+#: page.phpagiconf.php:66
+msgid "Debug:"
+msgstr ""
+
+#: page.phpagiconf.php:66
+msgid "Enable PHPAGI debugging."
+msgstr "Active le debogage PHPAGI."
+
+#: page.phpagiconf.php:68 page.phpagiconf.php:75 page.phpagiconf.php:110
+msgid "false"
+msgstr "non"
+
+#: page.phpagiconf.php:69 page.phpagiconf.php:76 page.phpagiconf.php:111
+msgid "true"
+msgstr "oui"
+
+#: page.phpagiconf.php:73
+msgid "Error handler:"
+msgstr "Gestion d'erreurs:"
+
+#: page.phpagiconf.php:73
+msgid "Use internal error handler."
+msgstr "Utiliser le gestionnaire d'erreurs interne."
+
+#: page.phpagiconf.php:80
+msgid "Mail errors to:"
+msgstr "Envoyer les erreurs à:"
+
+#: page.phpagiconf.php:80
+msgid "Email where the errors will be sent."
+msgstr "Email de réception des erreurs."
+
+#: page.phpagiconf.php:84
+msgid "Hostname of the server:"
+msgstr "Nom du serveur:"
+
+#: page.phpagiconf.php:84
+msgid "Hostname of this server."
+msgstr "Nom du serveur (hosname)."
+
+#: page.phpagiconf.php:88
+msgid "Temporary directory:"
+msgstr "Répertoire temporaire:"
+
+#: page.phpagiconf.php:88
+msgid "Temporary directory for storing temporary output."
+msgstr "Répertoire temporaire."
+
+#: page.phpagiconf.php:91
+msgid "Festival config:"
+msgstr "Configuration de festival:"
+
+#: page.phpagiconf.php:93
+msgid "Path to text2wave:"
+msgstr "Chemin de l'exécutable text2wave:"
+
+#: page.phpagiconf.php:93
+msgid "Path to text2wave binary."
+msgstr "Chemin de l'exécutable text2wave."
+
+#: page.phpagiconf.php:96
+msgid "Asterisk API settings:"
+msgstr "Paramètres d'accès à l'API Asterisk"
+
+#: page.phpagiconf.php:98
+msgid "Server:"
+msgstr "Serveur:"
+
+#: page.phpagiconf.php:98
+msgid "Server to connect to."
+msgstr "Adresse du serveur asterisk sur lequel se connecter."
+
+#: page.phpagiconf.php:102
+msgid "Port:"
+msgstr ""
+
+#: page.phpagiconf.php:102
+msgid "Port to connect to manager."
+msgstr "Port sur lequel se connecter."
+
+#: page.phpagiconf.php:106
+msgid "Fast AGI config:"
+msgstr "Configuration Fast AGI:"
+
+#: page.phpagiconf.php:108
+msgid "setuid:"
+msgstr ""
+
+#: page.phpagiconf.php:108
+msgid "Drop privileges to owner of script."
+msgstr "Permet aux scripts de s'exécuter avec les privilèges de leur propriétaire."
+
+#: page.phpagiconf.php:115
+msgid "Basedir:"
+msgstr ""
+
+#: page.phpagiconf.php:115
+msgid "Path to AGI scripts folder."
+msgstr "Chemin ou se trouvent les scripts AGI."
+
+#: page.phpagiconf.php:118
+msgid "Cepstral config:"
+msgstr "Configuration de Cepstral"
+
+#: page.phpagiconf.php:120
+msgid "Swift path:"
+msgstr "Chemin de swift"
+
+#: page.phpagiconf.php:120
+msgid "Path to cepstral TTS binary."
+msgstr "Chemin de l'exécutable swift."
+
+#: page.phpagiconf.php:124
+msgid "Cepstral voice:"
+msgstr "Voix:"
+
+#: page.phpagiconf.php:124
+msgid "TTS Voice used."
+msgstr "Voix a utiliser."
+
+#: page.phpagiconf.php:158
+msgid "To use this module you need to download and enable Asterisk API module."
+msgstr "Pour utiliser ce module vous devez télécharger et activer le module 'Asterisk API'."
