@@ -7,7 +7,7 @@
 	<menuitems>
 		<phpagiconf>PHPAGI Config</phpagiconf>
 	</menuitems>
-	<location>release/phpagiconf-1.0.tgz</location>
-	<md5sum>0bd7025bc8c903f84037b9077e7bf710</md5sum>
+	<location>release//2.2/phpagiconf-1.0.tgz</location>
+	<md5sum>d1e9128ba20fc1e08d397f29f7bf2737</md5sum>
 	<info>http://freepbx.org/wiki/phpagiconf</info>
 </module>
