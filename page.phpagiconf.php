@@ -15,26 +15,37 @@ if(array_key_exists('manager', $active_modules)) {
 $manrevision=explode(".",$active_modules['manager']['version']);
 if ($manrevision[2] >= 4) {
 
-isset($_REQUEST['action'])?$action = $_REQUEST['action']:$action='';
-isset($_REQUEST['phpagiid'])?$phpagiid = $_REQUEST['phpagiid']:$phpagiid='';
+$action = isset($_REQUEST['action'])?$_REQUEST['action']:'';
+$phpagiid = isset($_REQUEST['phpagiid'])?$_REQUEST['phpagiid']:'';
+$id = isset($_REQUEST['id'])?$_REQUEST['id']:'';
+$debug = isset($_REQUEST['debug'])?$_REQUEST['debug']:'0';
+$error_handler = isset($_REQUEST['error_handler'])?$_REQUEST['error_handler']:'0';
+$err_email = isset($_REQUEST['err_email'])?$_REQUEST['err_email']:'admin@example.com';
+$hostname = isset($_REQUEST['hostname'])?$_REQUEST['hostname']:'freepbx.example.com';
+$tempdir = isset($_REQUEST['tempdir'])?$_REQUEST['tempdir']:'/tmp';
+$festival_text2wave = isset($_REQUEST['festival_text2wave'])?$_REQUEST['festival_text2wave']:'/usr/bin/text2wave';
+$asman_server = isset($_REQUEST['asman_server'])?$_REQUEST['asman_server']:'localhost';
+$asman_port = isset($_REQUEST['asman_port'])?$_REQUEST['asman_port']:'5038';
+$asmanager = isset($_REQUEST['asmanager'])?$_REQUEST['asmanager']:''; // This comes from the API module
+$cepstral_swift = isset($_REQUEST['cepstral_swift'])?$_REQUEST['cepstral_swift']:'/opt/swift/bin/swift';
+$cepstral_voice = isset($_REQUEST['cepstral_voice'])?$_REQUEST['cepstral_voice']:'David';
+$setuid = isset($_REQUEST['setuid'])?$_REQUEST['setuid']:'0';
+$basedir = isset($_REQUEST['basedir'])?$_REQUEST['basedir']:'/var/lib/asterisk/agi-bin/';
+
 $dispnum = "phpagiconf"; //used for switch on config.php
 
 switch ($action) {
 	case "edit":
-		phpagiconf_update($_REQUEST['id'], $_REQUEST['debug'], $_REQUEST['error_handler'],
-				$_REQUEST['err_email'], $_REQUEST['hostname'], $_REQUEST['tempdir'],
-				$_REQUEST['festival_text2wave'], $_REQUEST['asman_server'], $_REQUEST['asman_port'],
-				$_REQUEST['asmanager'], $_REQUEST['cepstral_swift'],
-				$_REQUEST['cepstral_voice'], $_REQUEST['setuid'], $_REQUEST['basedir']);
+		phpagiconf_update($id, $debug, $error_handler, $err_email, $hostname, $tempdir,
+				$festival_text2wave, $asman_server, $asman_port, $asmanager,
+				$cepstral_swift, $cepstral_voice, $setuid, $basedir);
 		phpagiconf_gen_conf();
 		needreload();
 	break;
 	case "add":
-		phpagiconf_add($_REQUEST['debug'], $_REQUEST['error_handler'],
-				$_REQUEST['err_email'], $_REQUEST['hostname'], $_REQUEST['tempdir'],
-				$_REQUEST['festival_text2wave'], $_REQUEST['asman_server'], $_REQUEST['asman_port'],
-				$_REQUEST['asmanager'], $_REQUEST['cepstral_swift'],
-				$_REQUEST['cepstral_voice'], $_REQUEST['setuid'], $_REQUEST['basedir']);
+		phpagiconf_add($debug, $error_handler, $err_email, $hostname, $tempdir,
+				$festival_text2wave, $asman_server, $asman_port, $asmanager,
+				$cepstral_swift, $cepstral_voice, $setuid, $basedir);
 		phpagiconf_gen_conf();
 		needreload();
 	break;
@@ -84,29 +95,29 @@ extract($thisConfig);
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Mail errors to:")?><span><?php echo _("Email where the errors will be sent.")?></span></a></td>
-		<td><input type="text" name="err_email" value="<?php echo (isset($err_email) ? $err_email : 'admin@example.com'); ?>"></td>
+		<td><input type="text" name="err_email" value="<?php echo $err_email; ?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Hostname of the server:")?><span><?php echo _("Hostname of this server.")?></span></a></td>
-		<td><input type="text" name="hostname" value="<?php echo (isset($hostname) ? $hostname : 'freepbx.example.com'); ?>"></td>
+		<td><input type="text" name="hostname" value="<?php echo $hostname; ?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Temporary directory:")?><span><?php echo _("Temporary directory for storing temporary output.")?></span></a></td>
-		<td><input size=40 type="text" name="tempdir" value="<?php echo (isset($tempdir) ? $tempdir : '/tmp'); ?>"></td>
+		<td><input size=40 type="text" name="tempdir" value="<?php echo $tempdir; ?>"></td>
 	</tr>
 	<tr><td colspan="2"><h5><?php echo _("Festival config:"); ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Path to text2wave:")?><span><?php echo _("Path to text2wave binary.")?></span></a></td>
-		<td><input type="text" name="festival_text2wave" value="<?php echo (isset($festival_text2wave) ? $festival_text2wave : '/usr/bin/text2wave'); ?>"></td>
+		<td><input type="text" name="festival_text2wave" value="<?php echo $festival_text2wave; ?>"></td>
 	</tr>
 	<tr><td colspan="2"><h5><?php echo _("Asterisk API settings:"); ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Server:")?><span><?php echo _("Server to connect to.")?></span></a></td>
-		<td><input type="text" name="asman_server" value="<?php echo (isset($asman_server) ? $asman_server : 'localhost'); ?>"></td>
+		<td><input type="text" name="asman_server" value="<?php echo $asman_server; ?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Port:")?><span><?php echo _("Port to connect to manager.")?></span></a></td>
-		<td><input type="text" name="asman_port" value="<?php echo (isset($asman_port) ? $asman_port : '5038'); ?>"></td>
+		<td><input type="text" name="asman_port" value="<?php echo $asman_port; ?>"></td>
 	</tr>
 <?php echo $module_hook->hookHtml; ?>
 	<tr><td colspan="2"><h5><?php echo _("Fast AGI config:"); ?><hr></h5></td></tr>
@@ -119,16 +130,16 @@ extract($thisConfig);
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Basedir:")?><span><?php echo _("Path to AGI scripts folder.")?></span></a></td>
-		<td><input size=40 type="text" name="basedir" value="<?php echo (isset($basedir) ? $basedir : '/var/lib/asterisk/agi-bin/'); ?>"></td>
+		<td><input size=40 type="text" name="basedir" value="<?php echo $basedir; ?>"></td>
 	</tr>
 	<tr><td colspan="2"><h5><?php echo _("Cepstral config:"); ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Swift path:")?><span><?php echo _("Path to cepstral TTS binary.")?></span></a></td>
-		<td><input type="text" name="cepstral_swift" value="<?php echo (isset($cepstral_swift) ? $cepstral_swift : '/opt/swift/bin/swift'); ?>"></td>
+		<td><input type="text" name="cepstral_swift" value="<?php echo $cepstral_swift; ?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Cepstral voice:")?><span><?php echo _("TTS Voice used.")?></span></a></td>
-		<td><input type="text" name="cepstral_voice" value="<?php echo (isset($cepstral_voice) ? $cepstral_voice : 'David'); ?>"></td>
+		<td><input type="text" name="cepstral_voice" value="<?php echo $cepstral_voice; ?>"></td>
 	</tr>
 
 	<tr><td colspan="2"><br><h6><input name="Submit" type="submit" value="<?php echo _("Submit Changes") ?>"></h6></td></tr>
