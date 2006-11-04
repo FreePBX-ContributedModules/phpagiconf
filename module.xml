@@ -1,13 +1,17 @@
 <module>
 	<rawname>phpagiconf</rawname>
 	<name>PHPAGI Config</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<type>tool</type>
 	<category>Config</category>
 	<menuitems>
 		<phpagiconf>PHPAGI Config</phpagiconf>
 	</menuitems>
-	<location>release//2.2/phpagiconf-1.0.tgz</location>
-	<md5sum>d1e9128ba20fc1e08d397f29f7bf2737</md5sum>
+	<depends>
+		<module>manager ge1.0.4</module>
+	</depends> 
+	<changelog>*1.1* Removed old dependancy checking code, first 2.2 release</changelog>
+	<location>release/2.2/phpagiconf-1.1.tgz</location>
+	<md5sum>1dd626321578d58698ed033e7e3a688f</md5sum>
 	<info>http://freepbx.org/wiki/phpagiconf</info>
 </module>
