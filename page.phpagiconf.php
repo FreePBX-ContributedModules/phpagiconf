@@ -11,10 +11,6 @@
 //MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //GNU General Public License for more details.
 
-if(array_key_exists('manager', $active_modules)) {
-$manrevision=explode(".",$active_modules['manager']['version']);
-if ($manrevision[2] >= 4) {
-
 $action = isset($_REQUEST['action'])?$_REQUEST['action']:'';
 $phpagiid = isset($_REQUEST['phpagiid'])?$_REQUEST['phpagiid']:'';
 $id = isset($_REQUEST['id'])?$_REQUEST['id']:'';
@@ -167,18 +163,4 @@ function editAGIConf_submit()
 //-->
 </script>
 </form>
-<?php } else { ?>
 </div>
-<div class="rnav">
-</div>
-<div class="content">
-<h2><?php echo _("To use this module you need the Asterisk API module version >= 1.0.4"); ?></h2>
-</div>
-<?php } } else { ?>
-</div>
-<div class="rnav">
-</div>
-<div class="content">
-<h2><?php echo _("To use this module you need to download and enable Asterisk API module."); ?></h2>
-</div>
-<?php } ?>

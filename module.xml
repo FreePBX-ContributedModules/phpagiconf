@@ -3,7 +3,7 @@
 	<name>PHPAGI Config</name>
 	<version>1.0</version>
 	<type>tool</type>
-	<category>System Administration</category>
+	<category>Config</category>
 	<menuitems>
 		<phpagiconf>PHPAGI Config</phpagiconf>
 	</menuitems>
