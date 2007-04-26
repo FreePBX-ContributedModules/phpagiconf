@@ -3,7 +3,10 @@
 function phpagiconf_gen_conf() {
 	global $active_modules;
 
-	$file = "/tmp/phpagi_".rand().".conf";
+	// create the tmp file in the same dir
+	// fixes ticket:1910
+	$file = "/etc/asterisk/phpagi_".rand().".conf";
+
 	$data = phpagiconf_get();
 	$content = "[phpagi]\n";
 	$content .= "debug=".($data['debug']?'true':'false')."\n";
