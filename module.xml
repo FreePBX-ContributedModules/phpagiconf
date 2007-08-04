@@ -11,6 +11,7 @@
 		<module>manager ge1.0.4</module>
 	</depends> 
 	<changelog>
+		*1.2.1* Fixed javascript error, removed unused script
 		*1.2* Create tmp files in /etc/asterisk, fixes ticket:1910
 		*1.1* Removed old dependancy checking code, first 2.2 release
 	</changelog>

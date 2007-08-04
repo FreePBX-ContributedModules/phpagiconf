@@ -69,7 +69,7 @@ extract($thisConfig);
 }
 ?>
 	<h2><?php echo _("PHPAGI Config:"); ?></h2>
-	<form autocomplete="on" name="editAGIConf" action="config.php?type=tool&amp;display=phpagiconf" method="post" onsubmit="return editAGIConf_submit();">
+	<form autocomplete="on" name="editAGIConf" action="config.php?type=tool&amp;display=phpagiconf" method="post">
 	<input type="hidden" name="display" value="<?php echo $dispnum?>">
 	<input type="hidden" name="action" value="<?php echo (isset($thisConfig) ? 'edit' : 'add') ?>">
 	<table>
@@ -141,26 +141,5 @@ extract($thisConfig);
 	<tr><td colspan="2"><br><h6><input name="Submit" type="submit" value="<?php echo _("Submit Changes") ?>"></h6></td></tr>
 
 	</table>
-<script language="javascript">
-<!--
-
-var theForm = document.editAGIConf;
-
-if (theForm.description.value == "") {
-	theForm.name.focus();
-} else {
-	theForm.festtext.focus();
-}
-
-function editAGIConf_submit()
-{
-/*
- * TODO: Check input
-*/
-	return true;
-}
-
-//-->
-</script>
 </form>
 </div>
