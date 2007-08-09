@@ -1,7 +1,7 @@
 <module>
 	<rawname>phpagiconf</rawname>
 	<name>PHPAGI Config</name>
-	<version>1.2</version>
+	<version>1.2.1</version>
 	<type>tool</type>
 	<category>Config</category>
 	<menuitems>
@@ -11,11 +11,10 @@
 		<module>manager ge1.0.4</module>
 	</depends> 
 	<changelog>
-		*1.2.1* Fixed javascript error, removed unused script
+		*1.2.1* Fixed javascript error, removed unused script, bump for rc1
 		*1.2* Create tmp files in /etc/asterisk, fixes ticket:1910
 		*1.1* Removed old dependancy checking code, first 2.2 release
 	</changelog>
 	<location>release/2.3/phpagiconf-1.2.tgz</location>
 	<md5sum>7c1de6fb9893a4e2184b811069192f59</md5sum>
-	<info>http://freepbx.org/wiki/phpagiconf</info>
 </module>
