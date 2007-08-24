@@ -1,9 +1,9 @@
 <module>
 	<rawname>phpagiconf</rawname>
 	<name>PHPAGI Config</name>
-	<version>1.2.1</version>
+	<version>1.2.2</version>
 	<type>tool</type>
-	<category>Config</category>
+	<category>System Administration</category>
 	<menuitems>
 		<phpagiconf>PHPAGI Config</phpagiconf>
 	</menuitems>
@@ -11,10 +11,11 @@
 		<module>manager ge1.0.4</module>
 	</depends> 
 	<changelog>
+		*1.2.2* Changed categories
 		*1.2.1* Fixed javascript error, removed unused script, bump for rc1
 		*1.2* Create tmp files in /etc/asterisk, fixes ticket:1910
 		*1.1* Removed old dependancy checking code, first 2.2 release
 	</changelog>
-	<location>release/2.3/phpagiconf-1.2.1.tgz</location>
-	<md5sum>251deda6ef264817818f6c756b56b6b3</md5sum>
+	<location>release/2.3/phpagiconf-1.2.2.tgz</location>
+	<md5sum>10407b881f66418c95aa564ed2becc10</md5sum>
 </module>
