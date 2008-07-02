@@ -55,7 +55,12 @@ function phpagiconf_add($p_debug, $p_error_handler, $p_err_email, $p_hostname, $
 	} else {
 		$asmanager = array ($amp_conf['AMPDBUSER'], $amp_conf['AMPDBPASS']);
 	}
-	$results = sql("INSERT INTO phpagiconf SET `debug`=$p_debug, error_handler=$p_error_handler, err_email='$p_err_email', hostname='$p_hostname', tempdir='$p_tempdir', festival_text2wave='$p_festival_text2wave', asman_server='$p_asman_server', asman_port=$p_asman_port, asman_user='".$asmanager[0]."', asman_secret='".$asmanager[1]."', cepstral_swift='$p_cepstral_swift', cepstral_voice='$p_cepstral_voice', setuid=$p_setuid, basedir='$p_basedir'");
+
+        $s = "INSERT INTO phpagiconf
+(`debug`, error_handler, err_email, hostname, tempdir, festival_text2wave, asman_server, asman_port, asman_user, asman_secret, cepstral_swift, cepstral_voice,setuid, basedir)
+VALUES ($p_debug, $p_error_handler, '$p_err_email', '$p_hostname', '$p_tempdir', '$p_festival_text2wave', '$p_asman_server', $p_asman_port, '".$asmanager[0]."', '".$asmanager[1]."', '$p_cepstral_swift', '$p_cepstral_voice', $p_setuid, '$p_basedir')";
+        $results = sql( $s );
+
 }
 
 ?>
