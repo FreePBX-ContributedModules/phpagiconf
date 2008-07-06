@@ -77,68 +77,68 @@ extract($thisConfig);
 	<tr><td><input type="hidden" name="id" value="<?php echo $phpagiid; ?>"></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Debug:")?><span><?php echo _("Enable PHPAGI debugging.")?></span></a></td>
-		<td><select name="debug">
+		<td><select name="debug" tabindex="<?php echo ++$tabindex;?>">
 			<option value="0" <?php echo (($debug==0) ? 'selected="selected"' : ''); ?>><?php echo _("false"); ?>
 			<option value="1" <?php echo (($debug==1) ? 'selected="selected"' : ''); ?>><?php echo _("true"); ?>
 		</select></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Error handler:")?><span><?php echo _("Use internal error handler.")?></span></a></td>
-		<td><select name="error_handler">
+		<td><select name="error_handler" tabindex="<?php echo ++$tabindex;?>">
 			<option value="0" <?php echo (($error_handler==0) ? 'selected="selected"' : ''); ?>><?php echo _("false");?>
 			<option value="1" <?php echo (($error_handler==1) ? 'selected="selected"' : ''); ?>><?php echo _("true");?>
 		</select></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Mail errors to:")?><span><?php echo _("Email where the errors will be sent.")?></span></a></td>
-		<td><input type="text" name="err_email" value="<?php echo $err_email; ?>"></td>
+		<td><input type="text" name="err_email" value="<?php echo $err_email; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Hostname of the server:")?><span><?php echo _("Hostname of this server.")?></span></a></td>
-		<td><input type="text" name="hostname" value="<?php echo $hostname; ?>"></td>
+		<td><input type="text" name="hostname" value="<?php echo $hostname; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Temporary directory:")?><span><?php echo _("Temporary directory for storing temporary output.")?></span></a></td>
-		<td><input size=40 type="text" name="tempdir" value="<?php echo $tempdir; ?>"></td>
+		<td><input size=40 type="text" name="tempdir" value="<?php echo $tempdir; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr><td colspan="2"><h5><?php echo _("Festival config:"); ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Path to text2wave:")?><span><?php echo _("Path to text2wave binary.")?></span></a></td>
-		<td><input type="text" name="festival_text2wave" value="<?php echo $festival_text2wave; ?>"></td>
+		<td><input type="text" name="festival_text2wave" value="<?php echo $festival_text2wave; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr><td colspan="2"><h5><?php echo _("Asterisk API settings:"); ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Server:")?><span><?php echo _("Server to connect to.")?></span></a></td>
-		<td><input type="text" name="asman_server" value="<?php echo $asman_server; ?>"></td>
+		<td><input type="text" name="asman_server" value="<?php echo $asman_server; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Port:")?><span><?php echo _("Port to connect to manager.")?></span></a></td>
-		<td><input type="text" name="asman_port" value="<?php echo $asman_port; ?>"></td>
+		<td><input type="text" name="asman_port" value="<?php echo $asman_port; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 <?php echo $module_hook->hookHtml; ?>
 	<tr><td colspan="2"><h5><?php echo _("Fast AGI config:"); ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("setuid:")?><span><?php echo _("Drop privileges to owner of script.")?></span></a></td>
-		<td><select name="setuid">
+		<td><select name="setuid" tabindex="<?php echo ++$tabindex;?>">
 			<option value="0" <?php echo (($setuid==0) ? 'selected="selected"' : ''); ?>><?php echo _("false");?>
 			<option value="1" <?php echo (($setuid==1) ? 'selected="selected"' : ''); ?>><?php echo _("true");?>
 		</select></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Basedir:")?><span><?php echo _("Path to AGI scripts folder.")?></span></a></td>
-		<td><input size=40 type="text" name="basedir" value="<?php echo $basedir; ?>"></td>
+		<td><input size=40 type="text" name="basedir" value="<?php echo $basedir; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr><td colspan="2"><h5><?php echo _("Cepstral config:"); ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Swift path:")?><span><?php echo _("Path to cepstral TTS binary.")?></span></a></td>
-		<td><input type="text" name="cepstral_swift" value="<?php echo $cepstral_swift; ?>"></td>
+		<td><input type="text" name="cepstral_swift" value="<?php echo $cepstral_swift; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Cepstral voice:")?><span><?php echo _("TTS Voice used.")?></span></a></td>
-		<td><input type="text" name="cepstral_voice" value="<?php echo $cepstral_voice; ?>"></td>
+		<td><input type="text" name="cepstral_voice" value="<?php echo $cepstral_voice; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 
-	<tr><td colspan="2"><br><h6><input name="Submit" type="submit" value="<?php echo _("Submit Changes") ?>"></h6></td></tr>
+	<tr><td colspan="2"><br><h6><input name="Submit" type="submit" value="<?php echo _("Submit Changes") ?>" tabindex="<?php echo ++$tabindex;?>"></h6></td></tr>
 
 	</table>
 </form>
