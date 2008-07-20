@@ -18,6 +18,6 @@
 		*1.2* Create tmp files in /etc/asterisk, fixes ticket:1910
 		*1.1* Removed old dependancy checking code, first 2.2 release
 	</changelog>
-	<location>release/2.4/phpagiconf-2.4.0.tgz</location>
-	<md5sum>ad0b28c22af5426734905c8a38108f5f</md5sum>
+	<location>release/2.5/phpagiconf-2.5.0.tgz</location>
+	<md5sum>1335b9a7cfd691c249169718207c76b0</md5sum>
 </module>
