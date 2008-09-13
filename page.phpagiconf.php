@@ -62,6 +62,7 @@ $phpagiconf = phpagiconf_get();
 <div class="content">
 <?php
 //get details for this phpagiconf text
+$tabindex = 0;
 $thisConfig = phpagiconf_get();
 //create variables
 if (isset($thisConfig)) {

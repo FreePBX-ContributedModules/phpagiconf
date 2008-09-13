@@ -50,6 +50,7 @@ function phpagiconf_update($p_id, $p_debug, $p_error_handler, $p_err_email, $p_h
 }
 
 function phpagiconf_add($p_debug, $p_error_handler, $p_err_email, $p_hostname, $p_tempdir, $p_festival_text2wave, $p_asman_server, $p_asman_port, $p_asmanager, $p_cepstral_swift, $p_cepstral_voice, $p_setuid, $p_basedir) {
+	global $amp_conf;
 	if (!empty($p_asmanager)) {
 		$asmanager = split('/', $p_asmanager); 
 	} else {
