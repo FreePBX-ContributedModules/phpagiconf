@@ -1,14 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is part of FreePBX.
 #
-#, fuzzy
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for phpagiconf
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-17 11:36+0200\n"
+"POT-Creation-Date: 2010-02-18 22:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,142 +28,148 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: functions.inc.php:35
+#: phpagiconf/functions.inc.php:35
 msgid "Error writing the phpagi.conf file."
 msgstr ""
 
-#: page.phpagiconf.php:72
+#: phpagiconf/page.phpagiconf.php:72
 msgid "PHPAGI Config:"
 msgstr ""
 
-#: page.phpagiconf.php:77
+#: phpagiconf/page.phpagiconf.php:77
 msgid "Main config:"
 msgstr ""
 
-#: page.phpagiconf.php:80
+#: phpagiconf/page.phpagiconf.php:80
 msgid "Debug:"
 msgstr ""
 
-#: page.phpagiconf.php:80
+#: phpagiconf/page.phpagiconf.php:80
 msgid "Enable PHPAGI debugging."
 msgstr ""
 
-#: page.phpagiconf.php:82 page.phpagiconf.php:89 page.phpagiconf.php:124
+#: phpagiconf/page.phpagiconf.php:82 phpagiconf/page.phpagiconf.php:89
+#: phpagiconf/page.phpagiconf.php:124
 msgid "false"
 msgstr ""
 
-#: page.phpagiconf.php:83 page.phpagiconf.php:90 page.phpagiconf.php:125
+#: phpagiconf/page.phpagiconf.php:83 phpagiconf/page.phpagiconf.php:90
+#: phpagiconf/page.phpagiconf.php:125
 msgid "true"
 msgstr ""
 
-#: page.phpagiconf.php:87
+#: phpagiconf/page.phpagiconf.php:87
 msgid "Error handler:"
 msgstr ""
 
-#: page.phpagiconf.php:87
+#: phpagiconf/page.phpagiconf.php:87
 msgid "Use internal error handler."
 msgstr ""
 
-#: page.phpagiconf.php:94
+#: phpagiconf/page.phpagiconf.php:94
 msgid "Mail errors to:"
 msgstr ""
 
-#: page.phpagiconf.php:94
+#: phpagiconf/page.phpagiconf.php:94
 msgid "Email where the errors will be sent."
 msgstr ""
 
-#: page.phpagiconf.php:98
+#: phpagiconf/page.phpagiconf.php:98
 msgid "Hostname of the server:"
 msgstr ""
 
-#: page.phpagiconf.php:98
+#: phpagiconf/page.phpagiconf.php:98
 msgid "Hostname of this server."
 msgstr ""
 
-#: page.phpagiconf.php:102
+#: phpagiconf/page.phpagiconf.php:102
 msgid "Temporary directory:"
 msgstr ""
 
-#: page.phpagiconf.php:102
+#: phpagiconf/page.phpagiconf.php:102
 msgid "Temporary directory for storing temporary output."
 msgstr ""
 
-#: page.phpagiconf.php:105
+#: phpagiconf/page.phpagiconf.php:105
 msgid "Festival config:"
 msgstr ""
 
-#: page.phpagiconf.php:107
+#: phpagiconf/page.phpagiconf.php:107
 msgid "Path to text2wave:"
 msgstr ""
 
-#: page.phpagiconf.php:107
+#: phpagiconf/page.phpagiconf.php:107
 msgid "Path to text2wave binary."
 msgstr ""
 
-#: page.phpagiconf.php:110
+#: phpagiconf/page.phpagiconf.php:110
 msgid "Asterisk API settings:"
 msgstr ""
 
-#: page.phpagiconf.php:112
+#: phpagiconf/page.phpagiconf.php:112
 msgid "Server:"
 msgstr ""
 
-#: page.phpagiconf.php:112
+#: phpagiconf/page.phpagiconf.php:112
 msgid "Server to connect to."
 msgstr ""
 
-#: page.phpagiconf.php:116
+#: phpagiconf/page.phpagiconf.php:116
 msgid "Port:"
 msgstr ""
 
-#: page.phpagiconf.php:116
+#: phpagiconf/page.phpagiconf.php:116
 msgid "Port to connect to manager."
 msgstr ""
 
-#: page.phpagiconf.php:120
+#: phpagiconf/page.phpagiconf.php:120
 msgid "Fast AGI config:"
 msgstr ""
 
-#: page.phpagiconf.php:122
+#: phpagiconf/page.phpagiconf.php:122
 msgid "setuid:"
 msgstr ""
 
-#: page.phpagiconf.php:122
+#: phpagiconf/page.phpagiconf.php:122
 msgid "Drop privileges to owner of script."
 msgstr ""
 
-#: page.phpagiconf.php:129
+#: phpagiconf/page.phpagiconf.php:129
 msgid "Basedir:"
 msgstr ""
 
-#: page.phpagiconf.php:129
+#: phpagiconf/page.phpagiconf.php:129
 msgid "Path to AGI scripts folder."
 msgstr ""
 
-#: page.phpagiconf.php:132
+#: phpagiconf/page.phpagiconf.php:132
 msgid "Cepstral config:"
 msgstr ""
 
-#: page.phpagiconf.php:134
+#: phpagiconf/page.phpagiconf.php:134
 msgid "Swift path:"
 msgstr ""
 
-#: page.phpagiconf.php:134
+#: phpagiconf/page.phpagiconf.php:134
 msgid "Path to cepstral TTS binary."
 msgstr ""
 
-#: page.phpagiconf.php:138
+#: phpagiconf/page.phpagiconf.php:138
 msgid "Cepstral voice:"
 msgstr ""
 
-#: page.phpagiconf.php:138
+#: phpagiconf/page.phpagiconf.php:138
 msgid "TTS Voice used."
 msgstr ""
 
-#: page.phpagiconf.php:142
+#: phpagiconf/page.phpagiconf.php:142
 msgid "Submit Changes"
 msgstr ""
 
-#: module.xml
+#: phpagiconf/phpagiconf.i18n.php:5 phpagiconf/phpagiconf.i18n.php:9
 msgid "PHPAGI Config"
+msgstr ""
+
+#: phpagiconf/phpagiconf.i18n.php:7
+msgid "System Administration"
 msgstr ""
