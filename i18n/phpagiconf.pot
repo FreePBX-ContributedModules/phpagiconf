@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 13:45+0100\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,148 +28,110 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: phpagiconf/functions.inc.php:35
 msgid "Error writing the phpagi.conf file."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:72
 msgid "PHPAGI Config:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:77
 msgid "Main config:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:80
 msgid "Debug:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:80
 msgid "Enable PHPAGI debugging."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:82 phpagiconf/page.phpagiconf.php:89
-#: phpagiconf/page.phpagiconf.php:124
 msgid "false"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:83 phpagiconf/page.phpagiconf.php:90
-#: phpagiconf/page.phpagiconf.php:125
 msgid "true"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:87
 msgid "Error handler:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:87
 msgid "Use internal error handler."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:94
 msgid "Mail errors to:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:94
 msgid "Email where the errors will be sent."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:98
 msgid "Hostname of the server:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:98
 msgid "Hostname of this server."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:102
 msgid "Temporary directory:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:102
 msgid "Temporary directory for storing temporary output."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:105
 msgid "Festival config:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:107
 msgid "Path to text2wave:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:107
 msgid "Path to text2wave binary."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:110
 msgid "Asterisk API settings:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:112
 msgid "Server:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:112
 msgid "Server to connect to."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:116
 msgid "Port:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:116
 msgid "Port to connect to manager."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:120
 msgid "Fast AGI config:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:122
 msgid "setuid:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:122
 msgid "Drop privileges to owner of script."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:129
 msgid "Basedir:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:129
 msgid "Path to AGI scripts folder."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:132
 msgid "Cepstral config:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:134
 msgid "Swift path:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:134
 msgid "Path to cepstral TTS binary."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:138
 msgid "Cepstral voice:"
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:138
 msgid "TTS Voice used."
 msgstr ""
 
-#: phpagiconf/page.phpagiconf.php:142
 msgid "Submit Changes"
 msgstr ""
 
-#: phpagiconf/phpagiconf.i18n.php:5 phpagiconf/phpagiconf.i18n.php:9
 msgid "PHPAGI Config"
 msgstr ""
 
-#: phpagiconf/phpagiconf.i18n.php:7
 msgid "System Administration"
 msgstr ""
