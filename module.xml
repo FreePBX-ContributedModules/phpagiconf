@@ -5,8 +5,7 @@
 	<version>2.9.0.2</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
-	<type>tool</type>
-	<category>System Administration</category>
+	<category>Settings</category>
 	<menuitems>
 		<phpagiconf>PHPAGI Config</phpagiconf>
 	</menuitems>
@@ -17,17 +16,6 @@
 		*2.9.0.2* #4401
 		*2.9.0.1* removed duplicate functions, set repository
 		*2.9.0.0* 2.9 Update
-		*2.8.0.0* #4309
-		*2.7.0.0* localizations
-		*2.6.0.0* misc
-		*2.5.0.2* #3191 uninitialized vars
-		*2.5.0.1* #2987 sqlite3 install script
-		*2.5.0* #1779, #2845 tabindex
-		*2.4.0* bump for 2.4
-		*1.2.2* Changed categories
-		*1.2.1* Fixed javascript error, removed unused script, bump for rc1
-		*1.2* Create tmp files in /etc/asterisk, fixes ticket:1910
-		*1.1* Removed old dependancy checking code, first 2.2 release
 	</changelog>
 	<location>release/2.9/phpagiconf-2.9.0.2.tgz</location>
 	<md5sum>3272378a9f86c959bc4df7197e75e40c</md5sum>

@@ -50,17 +50,7 @@ switch ($action) {
 //this function needs to be available to other modules (those that use goto destinations)
 //therefore we put it in globalfunctions.php
 $phpagiconf = phpagiconf_get();
-?>
 
-</div>
-
-<!-- right side menu -->
-<div class="rnav">
-</div>
-
-
-<div class="content">
-<?php
 //get details for this phpagiconf text
 $tabindex = 0;
 $thisConfig = phpagiconf_get();
