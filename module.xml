@@ -2,7 +2,7 @@
 	<rawname>phpagiconf</rawname>
 	<repo>unsupported</repo>
 	<name>PHPAGI Config</name>
-	<version>2.9.0.2</version>
+	<version>2.10.0.0</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<category>Settings</category>
@@ -13,10 +13,11 @@
 		<module>manager ge1.0.4</module>
 	</depends> 
 	<changelog>
+		*2.10.0.0* new version changes
 		*2.9.0.2* #4401
 		*2.9.0.1* removed duplicate functions, set repository
 		*2.9.0.0* 2.9 Update
 	</changelog>
-	<location>release/2.9/phpagiconf-2.9.0.2.tgz</location>
-	<md5sum>3272378a9f86c959bc4df7197e75e40c</md5sum>
+	<location>release/2.10/phpagiconf-2.10.0.0.tgz</location>
+	<md5sum>a3dc2074ac66cca396436bd21ee36fc8</md5sum>
 </module>
