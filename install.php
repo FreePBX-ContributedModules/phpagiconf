@@ -21,7 +21,7 @@ if($amp_conf["AMPDBENGINE"] == "sqlite3")  {
 		`cepstral_voice` VARCHAR( 50 ) ,
 		`setuid` BOOL ,
 		`basedir` VARCHAR( 255 )
-	);	
+	);
 	";
 }
 else  {
@@ -41,8 +41,8 @@ else  {
 		`cepstral_swift` VARCHAR( 255 ) ,
 		`cepstral_voice` VARCHAR( 50 ) ,
 		`setuid` BOOL ,
-		`basedir` VARCHAR( 255 ) 
-	) TYPE = MYISAM ;	
+		`basedir` VARCHAR( 255 )
+	) ENGINE = MYISAM ;
 	";
 }
 sql($sql);
