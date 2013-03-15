@@ -20,6 +20,6 @@
 		*2.9.0.1* removed duplicate functions, set repository
 		*2.9.0.0* 2.9 Update
 	</changelog>
-	<location>release/2.10/phpagiconf-2.10.0.1.tgz</location>
-	<md5sum>36af7d7a4d044951391e8b6a85035e7d</md5sum>
+	<location>release/2.11/phpagiconf-2.11.0.0.tgz</location>
+	<md5sum>001d6d1c0775eb499d8a1000c9bd11ba</md5sum>
 </module>
