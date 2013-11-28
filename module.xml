@@ -20,4 +20,4 @@
 	</changelog>
 	<location>release/2.10/phpagiconf-2.10.0.0.tgz</location>
 	<md5sum>a3dc2074ac66cca396436bd21ee36fc8</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>
