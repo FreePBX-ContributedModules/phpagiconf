@@ -1,18 +1,18 @@
 <module>
-	<rawname>phpagiconf</rawname>
-	<repo>unsupported</repo>
-	<name>PHPAGI Config</name>
-	<version>2.11.0.0</version>
-	<publisher>FreePBX</publisher>
-	<license>GPLv2+</license>
-	<category>Settings</category>
-	<menuitems>
-		<phpagiconf>PHPAGI Config</phpagiconf>
-	</menuitems>
-	<depends>
-		<module>manager ge1.0.4</module>
-	</depends> 
-	<changelog>
+  <rawname>phpagiconf</rawname>
+  <repo>unsupported</repo>
+  <name>PHPAGI Config</name>
+  <version>2.11.0.0</version>
+  <publisher>FreePBX</publisher>
+  <license>GPLv2+</license>
+  <category>Settings</category>
+  <menuitems>
+    <phpagiconf>PHPAGI Config</phpagiconf>
+  </menuitems>
+  <depends>
+    <module>manager ge1.0.4</module>
+  </depends>
+  <changelog>
 		*2.11.0.0* #6305
 		*2.10.0.1* #5478 
 		*2.10.0.0* new version changes
@@ -20,6 +20,9 @@
 		*2.9.0.1* removed duplicate functions, set repository
 		*2.9.0.0* 2.9 Update
 	</changelog>
-	<location>release/2.11/phpagiconf-2.11.0.0.tgz</location>
-	<md5sum>001d6d1c0775eb499d8a1000c9bd11ba</md5sum>
+  <location>release/2.11/phpagiconf-2.11.0.0.tgz</location>
+  <md5sum>001d6d1c0775eb499d8a1000c9bd11ba</md5sum>
+  <supported>
+    <version>2.10</version>
+  </supported>
 </module>
