@@ -7,121 +7,156 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2015-02-11 18:04-0500\n"
 "PO-Revision-Date: 2009-02-01 14:26+0800\n"
 "Last-Translator: 周征晟 <zhougongjizhe@163.com>\n"
 "Language-Team: EdwardBadBoy <zhougongjizhe@163.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-msgid "Error writing the phpagi.conf file."
-msgstr "写入phpagi.conf文件时发生错误。"
-
-msgid "PHPAGI Config:"
-msgstr "PHPAGI配置:"
-
-msgid "Main config:"
-msgstr "主要的配置："
-
-msgid "Debug:"
-msgstr "调试："
-
-msgid "Enable PHPAGI debugging."
-msgstr "启用PHPAGI调试。"
-
-msgid "false"
-msgstr "否"
-
-msgid "true"
-msgstr "是"
-
-msgid "Error handler:"
-msgstr "错误处理："
-
-msgid "Use internal error handler."
-msgstr "使用内部错误处理程序。"
-
-msgid "Mail errors to:"
-msgstr "将错误用电子邮件发送到："
-
-msgid "Email where the errors will be sent."
-msgstr "用电子邮件发送错误信息，在这里设置邮箱地址。"
-
-msgid "Hostname of the server:"
-msgstr "服务器的主机名："
-
-msgid "Hostname of this server."
-msgstr "此服务器的主机名："
-
-msgid "Temporary directory:"
-msgstr "临时目录："
-
-msgid "Temporary directory for storing temporary output."
-msgstr "用于存放临时输出的临时目录。"
-
-msgid "Festival config:"
-msgstr "彩蛋配置："
-
-msgid "Path to text2wave:"
-msgstr "text2wave程序的路径："
-
-msgid "Path to text2wave binary."
-msgstr "text2wave可执行文件的路径。"
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:94
 msgid "Asterisk API settings:"
 msgstr "Asterisk API 相关设置："
 
-msgid "Server:"
-msgstr "服务器："
-
-msgid "Server to connect to."
-msgstr "要连接的服务器。"
-
-msgid "Port:"
-msgstr "端口："
-
-msgid "Port to connect to manager."
-msgstr "要连接到的管理器所在的端口。"
-
-msgid "Fast AGI config:"
-msgstr "AGI快速配置："
-
-msgid "setuid:"
-msgstr "设置uid（setuid）："
-
-msgid "Drop privileges to owner of script."
-msgstr "让脚本在执行时具有其所有者所具有的权限。"
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
 msgid "Basedir:"
 msgstr "主目录："
 
-msgid "Path to AGI scripts folder."
-msgstr "AGI脚本的目录。"
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:116
 msgid "Cepstral config:"
 msgstr "Cepstral相关配置："
 
-msgid "Swift path:"
-msgstr "Swift程序的路径："
-
-msgid "Path to cepstral TTS binary."
-msgstr "cepstral的TTS（文字到语音）可执行文件路径"
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
 msgid "Cepstral voice:"
 msgstr "Cepstral语音："
 
-msgid "TTS Voice used."
-msgstr "使用的TTS语音。"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Debug:"
+msgstr "调试："
 
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
+msgid "Drop privileges to owner of script."
+msgstr "让脚本在执行时具有其所有者所具有的权限。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Email where the errors will be sent."
+msgstr "用电子邮件发送错误信息，在这里设置邮箱地址。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Enable PHPAGI debugging."
+msgstr "启用PHPAGI调试。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Error handler:"
+msgstr "错误处理："
+
+#: /usr/src/freepbx/phpagiconf/functions.inc.php:38
+msgid "Error writing the phpagi.conf file."
+msgstr "写入phpagi.conf文件时发生错误。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:104
+msgid "Fast AGI config:"
+msgstr "AGI快速配置："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:89
+msgid "Festival config:"
+msgstr "彩蛋配置："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of the server:"
+msgstr "服务器的主机名："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of this server."
+msgstr "此服务器的主机名："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Mail errors to:"
+msgstr "将错误用电子邮件发送到："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:61
+msgid "Main config:"
+msgstr "主要的配置："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:56
+msgid "PHPAGI Config:"
+msgstr "PHPAGI配置:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
+msgid "Path to AGI scripts folder."
+msgstr "AGI脚本的目录。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
+msgid "Path to cepstral TTS binary."
+msgstr "cepstral的TTS（文字到语音）可执行文件路径"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave binary."
+msgstr "text2wave可执行文件的路径。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave:"
+msgstr "text2wave程序的路径："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port to connect to manager."
+msgstr "要连接到的管理器所在的端口。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port:"
+msgstr "端口："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server to connect to."
+msgstr "要连接的服务器。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server:"
+msgstr "服务器："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:126
 msgid "Submit Changes"
 msgstr "提交更改"
 
-msgid "PHPAGI Config"
-msgstr "PHPAGI配置"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
+msgid "Swift path:"
+msgstr "Swift程序的路径："
 
-msgid "Settings"
-msgstr ""
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
+msgid "TTS Voice used."
+msgstr "使用的TTS语音。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory for storing temporary output."
+msgstr "用于存放临时输出的临时目录。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory:"
+msgstr "临时目录："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Use internal error handler."
+msgstr "使用内部错误处理程序。"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:66
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:73
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:108
+msgid "false"
+msgstr "否"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
+msgid "setuid:"
+msgstr "设置uid（setuid）："
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:67
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:74
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:109
+msgid "true"
+msgstr "是"
+
+#~ msgid "PHPAGI Config"
+#~ msgstr "PHPAGI配置"

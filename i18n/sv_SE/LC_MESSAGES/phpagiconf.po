@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX phpagi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2015-02-11 18:04-0500\n"
 "PO-Revision-Date: 2011-03-20 00:00+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
@@ -30,113 +30,148 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 
-msgid "Error writing the phpagi.conf file."
-msgstr "Fel vid skrivning till filen phpagi.conf"
-
-msgid "PHPAGI Config:"
-msgstr "Konfiguration för PHPAGI:"
-
-msgid "Main config:"
-msgstr "Huvudkonfiguration:"
-
-msgid "Debug:"
-msgstr "Avlusning:"
-
-msgid "Enable PHPAGI debugging."
-msgstr "Aktivera avlusning för PHPAGI."
-
-msgid "false"
-msgstr "Ja"
-
-msgid "true"
-msgstr "Nej"
-
-msgid "Error handler:"
-msgstr "Felhanterare:"
-
-msgid "Use internal error handler."
-msgstr "Använd den interna felhanteraren."
-
-msgid "Mail errors to:"
-msgstr "E-posta fel till:"
-
-msgid "Email where the errors will be sent."
-msgstr "E-postadressen felen ska skickas till."
-
-msgid "Hostname of the server:"
-msgstr "Datornamnet för servern:"
-
-msgid "Hostname of this server."
-msgstr "Datornamnet för denna server."
-
-msgid "Temporary directory:"
-msgstr "Temporär katalog:"
-
-msgid "Temporary directory for storing temporary output."
-msgstr "Temporär katalog för lagring av temporära filer."
-
-msgid "Festival config:"
-msgstr "Konfiguration för Festival:"
-
-msgid "Path to text2wave:"
-msgstr "Sökväg till text2wave:"
-
-msgid "Path to text2wave binary."
-msgstr "Sökvägen till programmet text2wave."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:94
 msgid "Asterisk API settings:"
 msgstr "Inställningar för Asterisk API:"
 
-msgid "Server:"
-msgstr "Server:"
-
-msgid "Server to connect to."
-msgstr "Server att koppla upp mot."
-
-msgid "Port:"
-msgstr "Port:"
-
-msgid "Port to connect to manager."
-msgstr "Den port som ska användas för att koppla mot hanteraren."
-
-msgid "Fast AGI config:"
-msgstr "Konfiguration för Fast AGI:"
-
-msgid "setuid:"
-msgstr "setuid:"
-
-msgid "Drop privileges to owner of script."
-msgstr "Sätt rättighet till ägaren av skriptet."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
 msgid "Basedir:"
 msgstr "Baskatalog:"
 
-msgid "Path to AGI scripts folder."
-msgstr "Sökväg till mappen för AGI-skripten."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:116
 msgid "Cepstral config:"
 msgstr "Konfiguration för Cepstral:"
 
-msgid "Swift path:"
-msgstr "Sökväg för Swift:"
-
-msgid "Path to cepstral TTS binary."
-msgstr "Sökväg till programmet cepstral TTS."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
 msgid "Cepstral voice:"
 msgstr "Röst för Cepstral:"
 
-msgid "TTS Voice used."
-msgstr "Den TTS-röst som ska användas."
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Debug:"
+msgstr "Avlusning:"
 
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
+msgid "Drop privileges to owner of script."
+msgstr "Sätt rättighet till ägaren av skriptet."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Email where the errors will be sent."
+msgstr "E-postadressen felen ska skickas till."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Enable PHPAGI debugging."
+msgstr "Aktivera avlusning för PHPAGI."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Error handler:"
+msgstr "Felhanterare:"
+
+#: /usr/src/freepbx/phpagiconf/functions.inc.php:38
+msgid "Error writing the phpagi.conf file."
+msgstr "Fel vid skrivning till filen phpagi.conf"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:104
+msgid "Fast AGI config:"
+msgstr "Konfiguration för Fast AGI:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:89
+msgid "Festival config:"
+msgstr "Konfiguration för Festival:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of the server:"
+msgstr "Datornamnet för servern:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of this server."
+msgstr "Datornamnet för denna server."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Mail errors to:"
+msgstr "E-posta fel till:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:61
+msgid "Main config:"
+msgstr "Huvudkonfiguration:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:56
+msgid "PHPAGI Config:"
+msgstr "Konfiguration för PHPAGI:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
+msgid "Path to AGI scripts folder."
+msgstr "Sökväg till mappen för AGI-skripten."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
+msgid "Path to cepstral TTS binary."
+msgstr "Sökväg till programmet cepstral TTS."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave binary."
+msgstr "Sökvägen till programmet text2wave."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave:"
+msgstr "Sökväg till text2wave:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port to connect to manager."
+msgstr "Den port som ska användas för att koppla mot hanteraren."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port:"
+msgstr "Port:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server to connect to."
+msgstr "Server att koppla upp mot."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server:"
+msgstr "Server:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:126
 msgid "Submit Changes"
 msgstr "Spara ändringar"
 
-msgid "PHPAGI Config"
-msgstr "Konfiguration för PHPAGI"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
+msgid "Swift path:"
+msgstr "Sökväg för Swift:"
 
-msgid "Settings"
-msgstr ""
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
+msgid "TTS Voice used."
+msgstr "Den TTS-röst som ska användas."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory for storing temporary output."
+msgstr "Temporär katalog för lagring av temporära filer."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory:"
+msgstr "Temporär katalog:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Use internal error handler."
+msgstr "Använd den interna felhanteraren."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:66
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:73
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:108
+msgid "false"
+msgstr "Ja"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
+msgid "setuid:"
+msgstr "setuid:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:67
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:74
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:109
+msgid "true"
+msgstr "Nej"
+
+#~ msgid "PHPAGI Config"
+#~ msgstr "Konfiguration för PHPAGI"
 
 #~ msgid "System Administration"
 #~ msgstr "Systemadministration"

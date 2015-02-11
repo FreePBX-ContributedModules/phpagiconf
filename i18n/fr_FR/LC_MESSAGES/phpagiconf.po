@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2015-02-11 18:04-0500\n"
 "PO-Revision-Date: 2009-04-21 15:24+ZONE\n"
 "Last-Translator: Séverine GUTIERREZ <severine@medialsace.fr>\n"
 "Language-Team: Français <LL@li.org>\n"
@@ -28,111 +28,146 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Error writing the phpagi.conf file."
-msgstr "Erreur lors de l'écriture du fichier phpagi.conf"
-
-msgid "PHPAGI Config:"
-msgstr "Configuration PHPAGI:"
-
-msgid "Main config:"
-msgstr "Paramètres principaux:"
-
-msgid "Debug:"
-msgstr ""
-
-msgid "Enable PHPAGI debugging."
-msgstr "Active le débogage PHPAGI."
-
-msgid "false"
-msgstr "faux"
-
-msgid "true"
-msgstr "vrai"
-
-msgid "Error handler:"
-msgstr "Gestion d'erreurs:"
-
-msgid "Use internal error handler."
-msgstr "Utiliser le gestionnaire d'erreurs interne."
-
-msgid "Mail errors to:"
-msgstr "Envoyer les erreurs à:"
-
-msgid "Email where the errors will be sent."
-msgstr "Email de réception des erreurs."
-
-msgid "Hostname of the server:"
-msgstr "Nom du serveur :"
-
-msgid "Hostname of this server."
-msgstr "Nom de ce serveur (hosname)."
-
-msgid "Temporary directory:"
-msgstr "Répertoire temporaire."
-
-msgid "Temporary directory for storing temporary output."
-msgstr "Répertoire temporaire."
-
-msgid "Festival config:"
-msgstr "Configuration de Festival:"
-
-msgid "Path to text2wave:"
-msgstr "Chemin de text2wave:"
-
-msgid "Path to text2wave binary."
-msgstr "Chemin de l'exécutable text2wave."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:94
 msgid "Asterisk API settings:"
 msgstr "Paramètres d'accès à l'API Asterisk"
 
-msgid "Server:"
-msgstr "Serveur:"
-
-msgid "Server to connect to."
-msgstr "Adresse du serveur Asterisk sur lequel se connecter."
-
-msgid "Port:"
-msgstr "Port:"
-
-msgid "Port to connect to manager."
-msgstr "Port sur lequel se connecter."
-
-msgid "Fast AGI config:"
-msgstr "Configuration Fast AGI:"
-
-msgid "setuid:"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
+msgid "Basedir:"
 msgstr ""
 
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:116
+msgid "Cepstral config:"
+msgstr "Configuration de Cepstral:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
+msgid "Cepstral voice:"
+msgstr "Voix Cepstral :"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Debug:"
+msgstr ""
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
 msgid "Drop privileges to owner of script."
 msgstr ""
 "Permet aux scripts de s'exécuter avec les privilèges de leur propriétaire."
 
-msgid "Basedir:"
-msgstr ""
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Email where the errors will be sent."
+msgstr "Email de réception des erreurs."
 
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Enable PHPAGI debugging."
+msgstr "Active le débogage PHPAGI."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Error handler:"
+msgstr "Gestion d'erreurs:"
+
+#: /usr/src/freepbx/phpagiconf/functions.inc.php:38
+msgid "Error writing the phpagi.conf file."
+msgstr "Erreur lors de l'écriture du fichier phpagi.conf"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:104
+msgid "Fast AGI config:"
+msgstr "Configuration Fast AGI:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:89
+msgid "Festival config:"
+msgstr "Configuration de Festival:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of the server:"
+msgstr "Nom du serveur :"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of this server."
+msgstr "Nom de ce serveur (hosname)."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Mail errors to:"
+msgstr "Envoyer les erreurs à:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:61
+msgid "Main config:"
+msgstr "Paramètres principaux:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:56
+msgid "PHPAGI Config:"
+msgstr "Configuration PHPAGI:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
 msgid "Path to AGI scripts folder."
 msgstr "Chemin où se trouvent les scripts AGI."
 
-msgid "Cepstral config:"
-msgstr "Configuration de Cepstral:"
-
-msgid "Swift path:"
-msgstr "Chemin de Swift:"
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
 msgid "Path to cepstral TTS binary."
 msgstr "Chemin des binaires TTS de Cepstal."
 
-msgid "Cepstral voice:"
-msgstr "Voix Cepstral :"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave binary."
+msgstr "Chemin de l'exécutable text2wave."
 
-msgid "TTS Voice used."
-msgstr "Voix TTS utilisée"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave:"
+msgstr "Chemin de text2wave:"
 
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port to connect to manager."
+msgstr "Port sur lequel se connecter."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port:"
+msgstr "Port:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server to connect to."
+msgstr "Adresse du serveur Asterisk sur lequel se connecter."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server:"
+msgstr "Serveur:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:126
 msgid "Submit Changes"
 msgstr "Appliquer les Modifications"
 
-msgid "PHPAGI Config"
-msgstr "Config PHPAGI"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
+msgid "Swift path:"
+msgstr "Chemin de Swift:"
 
-msgid "Settings"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
+msgid "TTS Voice used."
+msgstr "Voix TTS utilisée"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory for storing temporary output."
+msgstr "Répertoire temporaire."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory:"
+msgstr "Répertoire temporaire."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Use internal error handler."
+msgstr "Utiliser le gestionnaire d'erreurs interne."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:66
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:73
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:108
+msgid "false"
+msgstr "faux"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
+msgid "setuid:"
 msgstr ""
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:67
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:74
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:109
+msgid "true"
+msgstr "vrai"
+
+#~ msgid "PHPAGI Config"
+#~ msgstr "Config PHPAGI"

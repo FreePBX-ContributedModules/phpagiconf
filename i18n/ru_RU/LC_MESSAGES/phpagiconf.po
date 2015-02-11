@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-30 00:04+0400\n"
+"POT-Creation-Date: 2015-02-11 18:04-0500\n"
 "PO-Revision-Date: 2012-11-08 12:58+0400\n"
 "Last-Translator: root <ceo@postmet.com>\n"
 "Language-Team: Russian\n"
@@ -30,110 +30,148 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "Error writing the phpagi.conf file."
-msgstr "Ошибка при записи файла phpagi.conf"
-
-msgid "PHPAGI Config:"
-msgstr "Конфигурация PHPAGI"
-
-msgid "Main config:"
-msgstr "Основная конфигурация"
-
-msgid "Debug:"
-msgstr "Отладка"
-
-msgid "Enable PHPAGI debugging."
-msgstr "Активировать отладку PHPAGI."
-
-msgid "false"
-msgstr "нет"
-
-msgid "true"
-msgstr "да"
-
-msgid "Error handler:"
-msgstr "Обработчик ошибок:"
-
-msgid "Use internal error handler."
-msgstr "Использовать внутренний обработчик ошибок."
-
-msgid "Mail errors to:"
-msgstr "Отправить ошибки:"
-
-msgid "Email where the errors will be sent."
-msgstr "E-mail куда будут отправленны ошибки."
-
-msgid "Hostname of the server:"
-msgstr "Имя сервера:"
-
-msgid "Hostname of this server."
-msgstr "Имя текущего сервера."
-
-msgid "Temporary directory:"
-msgstr "Временная директория:"
-
-msgid "Temporary directory for storing temporary output."
-msgstr "Временная директория для хранения временных файлов."
-
-msgid "Festival config:"
-msgstr "Festival конфигурация:"
-
-msgid "Path to text2wave:"
-msgstr "Путь до text2wave:"
-
-msgid "Path to text2wave binary."
-msgstr "Путь до исполняемого файла text2wave."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:94
 msgid "Asterisk API settings:"
 msgstr "Настройки Asterisk API"
 
-msgid "Server:"
-msgstr "Сервер:"
-
-msgid "Server to connect to."
-msgstr "Сервер подключения."
-
-msgid "Port:"
-msgstr "Порт:"
-
-msgid "Port to connect to manager."
-msgstr "Порт подключения для менеджера."
-
-msgid "Fast AGI config:"
-msgstr "Быстрая конфигурация AGI"
-
-msgid "setuid:"
-msgstr "Установить uid:"
-
-msgid "Drop privileges to owner of script."
-msgstr "Сбросить привелегии для владельца скрипта."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
 msgid "Basedir:"
 msgstr "Базовая dir:"
 
-msgid "Path to AGI scripts folder."
-msgstr "Путь к каталогу AGI скрпитов."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:116
 msgid "Cepstral config:"
 msgstr "Конфигурация Cepstral:"
 
-msgid "Swift path:"
-msgstr "Быстрый путь:"
-
-msgid "Path to cepstral TTS binary."
-msgstr "Путь до исполняемого файла cepstral TTS."
-
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
 msgid "Cepstral voice:"
 msgstr "Голос cepstral:"
 
-msgid "TTS Voice used."
-msgstr "Использован TTS голос."
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Debug:"
+msgstr "Отладка"
 
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
+msgid "Drop privileges to owner of script."
+msgstr "Сбросить привелегии для владельца скрипта."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Email where the errors will be sent."
+msgstr "E-mail куда будут отправленны ошибки."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:64
+msgid "Enable PHPAGI debugging."
+msgstr "Активировать отладку PHPAGI."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Error handler:"
+msgstr "Обработчик ошибок:"
+
+#: /usr/src/freepbx/phpagiconf/functions.inc.php:38
+msgid "Error writing the phpagi.conf file."
+msgstr "Ошибка при записи файла phpagi.conf"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:104
+msgid "Fast AGI config:"
+msgstr "Быстрая конфигурация AGI"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:89
+msgid "Festival config:"
+msgstr "Festival конфигурация:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of the server:"
+msgstr "Имя сервера:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:82
+msgid "Hostname of this server."
+msgstr "Имя текущего сервера."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:78
+msgid "Mail errors to:"
+msgstr "Отправить ошибки:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:61
+msgid "Main config:"
+msgstr "Основная конфигурация"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:56
+msgid "PHPAGI Config:"
+msgstr "Конфигурация PHPAGI"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:113
+msgid "Path to AGI scripts folder."
+msgstr "Путь к каталогу AGI скрпитов."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
+msgid "Path to cepstral TTS binary."
+msgstr "Путь до исполняемого файла cepstral TTS."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave binary."
+msgstr "Путь до исполняемого файла text2wave."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:91
+msgid "Path to text2wave:"
+msgstr "Путь до text2wave:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port to connect to manager."
+msgstr "Порт подключения для менеджера."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:100
+msgid "Port:"
+msgstr "Порт:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server to connect to."
+msgstr "Сервер подключения."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:96
+msgid "Server:"
+msgstr "Сервер:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:126
 msgid "Submit Changes"
 msgstr "Внести изменения"
 
-msgid "PHPAGI Config"
-msgstr "Конфигурация PHPAGI"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:118
+msgid "Swift path:"
+msgstr "Быстрый путь:"
 
-msgid "Settings"
-msgstr "Настройки"
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:122
+msgid "TTS Voice used."
+msgstr "Использован TTS голос."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory for storing temporary output."
+msgstr "Временная директория для хранения временных файлов."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:86
+msgid "Temporary directory:"
+msgstr "Временная директория:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:71
+msgid "Use internal error handler."
+msgstr "Использовать внутренний обработчик ошибок."
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:66
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:73
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:108
+msgid "false"
+msgstr "нет"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:106
+msgid "setuid:"
+msgstr "Установить uid:"
+
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:67
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:74
+#: /usr/src/freepbx/phpagiconf/page.phpagiconf.php:109
+msgid "true"
+msgstr "да"
+
+#~ msgid "PHPAGI Config"
+#~ msgstr "Конфигурация PHPAGI"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
