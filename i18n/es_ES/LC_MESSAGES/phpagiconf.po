@@ -3,156 +3,160 @@ msgstr ""
 "Project-Id-Version: FreePBX - módulo phpagiconf module spanish translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:48-0500\n"
-"PO-Revision-Date: 2009-01-21 16:10+0100\n"
-"Last-Translator: Juan Asensio Sánchez <okelet@gmail.com>\n"
-"Language-Team: Juan Asensio Sánchez <okelet@gmail.com>\n"
+"PO-Revision-Date: 2015-03-30 22:02+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/phpagiconf/es_ES/>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: page.phpagiconf.php:94
 msgid "Asterisk API settings:"
-msgstr ""
+msgstr "Configuración API Asterisk:"
 
 #: page.phpagiconf.php:113
 msgid "Basedir:"
-msgstr ""
+msgstr "BaseDir:"
 
 #: page.phpagiconf.php:116
 msgid "Cepstral config:"
-msgstr ""
+msgstr "config Cepstral:"
 
 #: page.phpagiconf.php:122
 msgid "Cepstral voice:"
-msgstr ""
+msgstr "Voz Cepstral:"
 
 #: page.phpagiconf.php:64
 msgid "Debug:"
-msgstr ""
+msgstr "Depurar:"
 
 #: page.phpagiconf.php:106
 msgid "Drop privileges to owner of script."
-msgstr ""
+msgstr "Quitar privilegios al dueño del script."
 
 #: page.phpagiconf.php:78
 msgid "Email where the errors will be sent."
-msgstr ""
+msgstr "Correo donde los errores serán enviados."
 
 #: page.phpagiconf.php:64
 msgid "Enable PHPAGI debugging."
-msgstr ""
+msgstr "Habilitar depuración PHPAGI."
 
 #: page.phpagiconf.php:71
 msgid "Error handler:"
-msgstr ""
+msgstr "Manejador de errores:"
 
 #: functions.inc.php:38
 msgid "Error writing the phpagi.conf file."
-msgstr ""
+msgstr "Error al escribir el archivo phpagi,conf."
 
 #: page.phpagiconf.php:104
 msgid "Fast AGI config:"
-msgstr ""
+msgstr "Configuración rápida AGI:"
 
 #: page.phpagiconf.php:89
 msgid "Festival config:"
-msgstr ""
+msgstr "Configuración de Festival:"
 
 #: page.phpagiconf.php:82
 msgid "Hostname of the server:"
-msgstr ""
+msgstr "Nombre del server:"
 
 #: page.phpagiconf.php:82
 msgid "Hostname of this server."
-msgstr ""
+msgstr "Nombre de este server."
 
 #: page.phpagiconf.php:78
 msgid "Mail errors to:"
-msgstr ""
+msgstr "Correo de errores a:"
 
 #: page.phpagiconf.php:61
 msgid "Main config:"
-msgstr ""
+msgstr "Configuración Principal:"
 
 #: phpagiconf.i18n.php:3 phpagiconf.i18n.php:5
 msgid "PHPAGI Config"
-msgstr ""
+msgstr "Configuración PHPAGI"
 
 #: page.phpagiconf.php:56
 msgid "PHPAGI Config:"
-msgstr ""
+msgstr "Configuración  PHPAGI:"
 
 #: page.phpagiconf.php:113
 msgid "Path to AGI scripts folder."
-msgstr ""
+msgstr "Camino a carpeta de scripts de AGI."
 
 #: page.phpagiconf.php:118
 msgid "Path to cepstral TTS binary."
-msgstr ""
+msgstr "Camino al binario cepstral TTS."
 
 #: page.phpagiconf.php:91
 msgid "Path to text2wave binary."
-msgstr ""
+msgstr "Camino al binario text2wave."
 
 #: page.phpagiconf.php:91
 msgid "Path to text2wave:"
-msgstr ""
+msgstr "Camino a text2wave:"
 
 #: page.phpagiconf.php:100
 msgid "Port to connect to manager."
-msgstr ""
+msgstr "Puerto para conectar al gestor."
 
 #: page.phpagiconf.php:100
 msgid "Port:"
-msgstr ""
+msgstr "Puerto:"
 
 #: page.phpagiconf.php:96
 msgid "Server to connect to."
-msgstr ""
+msgstr "Servidor a conectarse."
 
 #: page.phpagiconf.php:96
 msgid "Server:"
-msgstr ""
+msgstr "Servidor:"
 
 #: phpagiconf.i18n.php:4
 msgid "Settings"
-msgstr ""
+msgstr "Configuraciones"
 
 #: page.phpagiconf.php:126
 msgid "Submit Changes"
-msgstr ""
+msgstr "Enviar Cambios"
 
 #: page.phpagiconf.php:118
 msgid "Swift path:"
-msgstr ""
+msgstr "Camino Swift:"
 
 #: page.phpagiconf.php:122
 msgid "TTS Voice used."
-msgstr ""
+msgstr "Voz TTS usada."
 
 #: page.phpagiconf.php:86
 msgid "Temporary directory for storing temporary output."
-msgstr ""
+msgstr "Directorio temporal para almacenar salidas temporales."
 
 #: page.phpagiconf.php:86
 msgid "Temporary directory:"
-msgstr ""
+msgstr "Directorio temporal:"
 
 #: page.phpagiconf.php:71
 msgid "Use internal error handler."
-msgstr ""
+msgstr "Usar manejador interno de errores."
 
 #: page.phpagiconf.php:66 page.phpagiconf.php:73 page.phpagiconf.php:108
 msgid "false"
-msgstr ""
+msgstr "falso"
 
 #: page.phpagiconf.php:106
 msgid "setuid:"
-msgstr ""
+msgstr "SetUID:"
 
 #: page.phpagiconf.php:67 page.phpagiconf.php:74 page.phpagiconf.php:109
 msgid "true"
-msgstr ""
+msgstr "Verdadero"
