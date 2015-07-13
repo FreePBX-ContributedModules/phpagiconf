@@ -41,22 +41,18 @@ switch ($action) {
 	break;
 }
 
-//this function needs to be available to other modules (those that use goto destinations)
-//therefore we put it in globalfunctions.php
-$phpagiconf = phpagiconf_get();
-
 //get details for this phpagiconf text
 $tabindex = 0;
-$thisConfig = phpagiconf_get();
+$thisConfig = $phpagiconf = phpagiconf_get();
 //create variables
-if (isset($thisConfig)) {
-extract($thisConfig);
+if (is_array($thisConfig)) {
+	extract($thisConfig);
 }
 ?>
 	<h2><?php echo _("PHPAGI Config:"); ?></h2>
 	<form autocomplete="on" name="editAGIConf" action="config.php?type=tool&amp;display=phpagiconf" method="post">
 	<input type="hidden" name="display" value="<?php echo $dispnum?>">
-	<input type="hidden" name="action" value="<?php echo (isset($thisConfig) ? 'edit' : 'add') ?>">
+	<input type="hidden" name="action" value="<?php echo (is_array($thisConfig) ? 'edit' : 'add') ?>">
 	<table>
 	<tr><td colspan="2"><h5><?php echo _("Main config:"); ?><hr></h5></td></tr>
 	<tr><td><input type="hidden" name="id" value="<?php echo $phpagiid; ?>"></td></tr>

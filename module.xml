@@ -2,9 +2,9 @@
   <rawname>phpagiconf</rawname>
   <repo>unsupported</repo>
   <name>PHPAGI Config</name>
-  <version>2.11.0.1</version>
-	<publisher>Schmooze Com Inc</publisher>
-	<license>GPLv3+</license>
+  <version>2.11.0.2</version>
+  <publisher>FreePBX</publisher>
+  <license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Settings</category>
   <menuitems>
@@ -14,9 +14,10 @@
     <module>manager ge1.0.4</module>
   </depends>
   <changelog>
-  		*2.11.0.1* include license file
+    *2.11.0.2* FREEPBX-9689 Loading PHP AGI Config yields whoops error
+    *2.11.0.1* include license file
 		*2.11.0.0* #6305
-		*2.10.0.1* #5478 
+		*2.10.0.1* #5478
 		*2.10.0.0* new version changes
 		*2.9.0.2* #4401
 		*2.9.0.1* removed duplicate functions, set repository
