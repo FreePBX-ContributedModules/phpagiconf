@@ -20,52 +20,52 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:48-0500\n"
+"POT-Creation-Date: 2015-07-13 19:44-0400\n"
 "PO-Revision-Date: 2015-04-22 16:37+0200\n"
 "Last-Translator: Yuriy <alliancesko@gmail.com>\n"
-"Language-Team: Russian "
-"<http://weblate.freepbx.org/projects/freepbx/phpagiconf/ru_RU/>\n"
-"Language: ru_RU\n"
+"Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
+"phpagiconf/ru_RU/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
-#: page.phpagiconf.php:94
+#: page.phpagiconf.php:90
 msgid "Asterisk API settings:"
 msgstr "Настройки Asterisk API:"
 
-#: page.phpagiconf.php:113
+#: page.phpagiconf.php:109
 msgid "Basedir:"
 msgstr "Базовая dir:"
 
-#: page.phpagiconf.php:116
+#: page.phpagiconf.php:112
 msgid "Cepstral config:"
 msgstr "Конфигурация Cepstral:"
 
-#: page.phpagiconf.php:122
+#: page.phpagiconf.php:118
 msgid "Cepstral voice:"
 msgstr "Голос cepstral:"
 
-#: page.phpagiconf.php:64
+#: page.phpagiconf.php:60
 msgid "Debug:"
 msgstr "Отладка:"
 
-#: page.phpagiconf.php:106
+#: page.phpagiconf.php:102
 msgid "Drop privileges to owner of script."
 msgstr "Сбросить привелегии для владельца скрипта."
 
-#: page.phpagiconf.php:78
+#: page.phpagiconf.php:74
 msgid "Email where the errors will be sent."
 msgstr "E-mail куда будут отправленны ошибки."
 
-#: page.phpagiconf.php:64
+#: page.phpagiconf.php:60
 msgid "Enable PHPAGI debugging."
 msgstr "Активировать отладку PHPAGI."
 
-#: page.phpagiconf.php:71
+#: page.phpagiconf.php:67
 msgid "Error handler:"
 msgstr "Обработчик ошибок:"
 
@@ -73,106 +73,104 @@ msgstr "Обработчик ошибок:"
 msgid "Error writing the phpagi.conf file."
 msgstr "Ошибка при записи файла phpagi.conf."
 
-#: page.phpagiconf.php:104
+#: page.phpagiconf.php:100
 msgid "Fast AGI config:"
 msgstr "Быстрая настройка AGI:"
 
-#: page.phpagiconf.php:89
+#: page.phpagiconf.php:85
 msgid "Festival config:"
 msgstr "Festival конфигурация:"
 
-#: page.phpagiconf.php:82
+#: page.phpagiconf.php:78
 msgid "Hostname of the server:"
 msgstr "Имя сервера:"
 
-#: page.phpagiconf.php:82
+#: page.phpagiconf.php:78
 msgid "Hostname of this server."
 msgstr "Имя текущего сервера."
 
-#: page.phpagiconf.php:78
+#: page.phpagiconf.php:74
 msgid "Mail errors to:"
 msgstr "Отправить ошибки:"
 
-#: page.phpagiconf.php:61
+#: page.phpagiconf.php:57
 msgid "Main config:"
 msgstr "Основная конфигурация:"
 
-#: phpagiconf.i18n.php:3 phpagiconf.i18n.php:5
-msgid "PHPAGI Config"
-msgstr "Конфигурация PHPAGI"
-
-#: page.phpagiconf.php:56
+#: page.phpagiconf.php:52
 msgid "PHPAGI Config:"
 msgstr "Настройка PHPAGI:"
 
-#: page.phpagiconf.php:113
+#: page.phpagiconf.php:109
 msgid "Path to AGI scripts folder."
 msgstr "Путь к каталогу AGI скрпитов."
 
-#: page.phpagiconf.php:118
+#: page.phpagiconf.php:114
 msgid "Path to cepstral TTS binary."
 msgstr "Путь до исполняемого файла cepstral TTS."
 
-#: page.phpagiconf.php:91
+#: page.phpagiconf.php:87
 msgid "Path to text2wave binary."
 msgstr "Путь до исполняемого файла text2wave."
 
-#: page.phpagiconf.php:91
+#: page.phpagiconf.php:87
 msgid "Path to text2wave:"
 msgstr "Путь до text2wave:"
 
-#: page.phpagiconf.php:100
+#: page.phpagiconf.php:96
 msgid "Port to connect to manager."
 msgstr "Порт подключения для менеджера."
 
-#: page.phpagiconf.php:100
+#: page.phpagiconf.php:96
 msgid "Port:"
 msgstr "Порт:"
 
-#: page.phpagiconf.php:96
+#: page.phpagiconf.php:92
 msgid "Server to connect to."
 msgstr "Сервер подключения."
 
-#: page.phpagiconf.php:96
+#: page.phpagiconf.php:92
 msgid "Server:"
 msgstr "Сервер:"
 
-#: phpagiconf.i18n.php:4
-msgid "Settings"
-msgstr "Настройки"
-
-#: page.phpagiconf.php:126
+#: page.phpagiconf.php:122
 msgid "Submit Changes"
 msgstr "Внести изменения"
 
-#: page.phpagiconf.php:118
+#: page.phpagiconf.php:114
 msgid "Swift path:"
 msgstr "Быстрый путь:"
 
-#: page.phpagiconf.php:122
+#: page.phpagiconf.php:118
 msgid "TTS Voice used."
 msgstr "Использован TTS голос."
 
-#: page.phpagiconf.php:86
+#: page.phpagiconf.php:82
 msgid "Temporary directory for storing temporary output."
 msgstr "Временная директория для хранения временных файлов."
 
-#: page.phpagiconf.php:86
+#: page.phpagiconf.php:82
 msgid "Temporary directory:"
 msgstr "Временная директория:"
 
-#: page.phpagiconf.php:71
+#: page.phpagiconf.php:67
 msgid "Use internal error handler."
 msgstr "Использовать внутренний обработчик ошибок."
 
-#: page.phpagiconf.php:66 page.phpagiconf.php:73 page.phpagiconf.php:108
+#: page.phpagiconf.php:62 page.phpagiconf.php:69 page.phpagiconf.php:104
 msgid "false"
 msgstr "нет"
 
-#: page.phpagiconf.php:106
+#: page.phpagiconf.php:102
 msgid "setuid:"
 msgstr "Установить uid:"
 
-#: page.phpagiconf.php:67 page.phpagiconf.php:74 page.phpagiconf.php:109
+#: page.phpagiconf.php:63 page.phpagiconf.php:70 page.phpagiconf.php:105
 msgid "true"
 msgstr "да"
+
+#~ msgid "PHPAGI Config"
+#~ msgstr "Конфигурация PHPAGI"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"

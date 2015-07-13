@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:48-0500\n"
+"POT-Creation-Date: 2015-07-13 19:44-0400\n"
 "PO-Revision-Date: 2014-02-19 20:56+0200\n"
 "Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
 "Language-Team: Japanese <http://example.com/projects/freepbx/phpagiconf/ja/"
@@ -49,39 +49,39 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 1.8\n"
 
-#: page.phpagiconf.php:94
+#: page.phpagiconf.php:90
 msgid "Asterisk API settings:"
 msgstr "Asterisk API設定"
 
-#: page.phpagiconf.php:113
+#: page.phpagiconf.php:109
 msgid "Basedir:"
 msgstr "ベースディレクトリ："
 
-#: page.phpagiconf.php:116
+#: page.phpagiconf.php:112
 msgid "Cepstral config:"
 msgstr "Cepstral 設定："
 
-#: page.phpagiconf.php:122
+#: page.phpagiconf.php:118
 msgid "Cepstral voice:"
 msgstr "Cepstral 音声"
 
-#: page.phpagiconf.php:64
+#: page.phpagiconf.php:60
 msgid "Debug:"
 msgstr "デバッグ："
 
-#: page.phpagiconf.php:106
+#: page.phpagiconf.php:102
 msgid "Drop privileges to owner of script."
 msgstr "スクリプトのオーナー権限をドロップ。"
 
-#: page.phpagiconf.php:78
+#: page.phpagiconf.php:74
 msgid "Email where the errors will be sent."
 msgstr "エラーが送信されるEメール"
 
-#: page.phpagiconf.php:64
+#: page.phpagiconf.php:60
 msgid "Enable PHPAGI debugging."
 msgstr "PHPAGIデバッグを有効にする。"
 
-#: page.phpagiconf.php:71
+#: page.phpagiconf.php:67
 msgid "Error handler:"
 msgstr "エラーハンドラー："
 
@@ -89,106 +89,104 @@ msgstr "エラーハンドラー："
 msgid "Error writing the phpagi.conf file."
 msgstr "phpagi.confファイルへの書き込みエラー。"
 
-#: page.phpagiconf.php:104
+#: page.phpagiconf.php:100
 msgid "Fast AGI config:"
 msgstr "Fast AGI 設定："
 
-#: page.phpagiconf.php:89
+#: page.phpagiconf.php:85
 msgid "Festival config:"
 msgstr "Festival設定："
 
-#: page.phpagiconf.php:82
+#: page.phpagiconf.php:78
 msgid "Hostname of the server:"
 msgstr "サーバホスト名："
 
-#: page.phpagiconf.php:82
+#: page.phpagiconf.php:78
 msgid "Hostname of this server."
 msgstr "このサーバーのホスト名。"
 
-#: page.phpagiconf.php:78
+#: page.phpagiconf.php:74
 msgid "Mail errors to:"
 msgstr "エラーメール送信先："
 
-#: page.phpagiconf.php:61
+#: page.phpagiconf.php:57
 msgid "Main config:"
 msgstr "メイン設定："
 
-#: phpagiconf.i18n.php:3 phpagiconf.i18n.php:5
-msgid "PHPAGI Config"
-msgstr "PHPAGI設定"
-
-#: page.phpagiconf.php:56
+#: page.phpagiconf.php:52
 msgid "PHPAGI Config:"
 msgstr "PHPAGI設定："
 
-#: page.phpagiconf.php:113
+#: page.phpagiconf.php:109
 msgid "Path to AGI scripts folder."
 msgstr "AGIスクリプトフォルダへのパス。"
 
-#: page.phpagiconf.php:118
+#: page.phpagiconf.php:114
 msgid "Path to cepstral TTS binary."
 msgstr "cepstral TTS バイナリへのパス。"
 
-#: page.phpagiconf.php:91
+#: page.phpagiconf.php:87
 msgid "Path to text2wave binary."
 msgstr "text2waveバイナリへのパス。"
 
-#: page.phpagiconf.php:91
+#: page.phpagiconf.php:87
 msgid "Path to text2wave:"
 msgstr "text2waveへのパス："
 
-#: page.phpagiconf.php:100
+#: page.phpagiconf.php:96
 msgid "Port to connect to manager."
 msgstr "マネージャーへの接続ポート。"
 
-#: page.phpagiconf.php:100
+#: page.phpagiconf.php:96
 msgid "Port:"
 msgstr "ポート："
 
-#: page.phpagiconf.php:96
+#: page.phpagiconf.php:92
 msgid "Server to connect to."
 msgstr "接続先サーバー。"
 
-#: page.phpagiconf.php:96
+#: page.phpagiconf.php:92
 msgid "Server:"
 msgstr "サーバー："
 
-#: phpagiconf.i18n.php:4
-msgid "Settings"
-msgstr "設定"
-
-#: page.phpagiconf.php:126
+#: page.phpagiconf.php:122
 msgid "Submit Changes"
 msgstr "変更を適用"
 
-#: page.phpagiconf.php:118
+#: page.phpagiconf.php:114
 msgid "Swift path:"
 msgstr "Swiftパス："
 
-#: page.phpagiconf.php:122
+#: page.phpagiconf.php:118
 msgid "TTS Voice used."
 msgstr "使用されるTTS音声"
 
-#: page.phpagiconf.php:86
+#: page.phpagiconf.php:82
 msgid "Temporary directory for storing temporary output."
 msgstr "一時出力を保存するテンポラリディレクトリ。"
 
-#: page.phpagiconf.php:86
+#: page.phpagiconf.php:82
 msgid "Temporary directory:"
 msgstr "テンポラリーディレクトリ："
 
-#: page.phpagiconf.php:71
+#: page.phpagiconf.php:67
 msgid "Use internal error handler."
 msgstr "内部エラーハンドラーを使用する。"
 
-#: page.phpagiconf.php:66 page.phpagiconf.php:73 page.phpagiconf.php:108
+#: page.phpagiconf.php:62 page.phpagiconf.php:69 page.phpagiconf.php:104
 msgid "false"
 msgstr "オフ"
 
-#: page.phpagiconf.php:106
+#: page.phpagiconf.php:102
 msgid "setuid:"
 msgstr "setuid:"
 
-#: page.phpagiconf.php:67 page.phpagiconf.php:74 page.phpagiconf.php:109
+#: page.phpagiconf.php:63 page.phpagiconf.php:70 page.phpagiconf.php:105
 msgid "true"
 msgstr "オン"
+
+#~ msgid "PHPAGI Config"
+#~ msgstr "PHPAGI設定"
+
+#~ msgid "Settings"
+#~ msgstr "設定"
