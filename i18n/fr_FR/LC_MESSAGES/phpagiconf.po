@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 19:44-0400\n"
-"PO-Revision-Date: 2016-01-16 08:52+0200\n"
+"PO-Revision-Date: 2016-01-22 08:49+0200\n"
 "Last-Translator: Nicolas <forums@riendeau.org>\n"
 "Language-Team: French "
 "<http://weblate.freepbx.org/projects/freepbx/phpagiconf/fr_FR/>\n"
@@ -37,7 +37,7 @@ msgstr "Paramètres d'API Asterisk :"
 
 #: page.phpagiconf.php:109
 msgid "Basedir:"
-msgstr ""
+msgstr "Répertoire de base :"
 
 #: page.phpagiconf.php:112
 msgid "Cepstral config:"
@@ -49,7 +49,7 @@ msgstr "Voix Cepstral :"
 
 #: page.phpagiconf.php:60
 msgid "Debug:"
-msgstr ""
+msgstr "Déboguer :"
 
 #: page.phpagiconf.php:102
 msgid "Drop privileges to owner of script."
@@ -134,7 +134,7 @@ msgstr "Serveur :"
 
 #: page.phpagiconf.php:122
 msgid "Submit Changes"
-msgstr "Appliquer les Modifications"
+msgstr "Soumettre les changements"
 
 #: page.phpagiconf.php:114
 msgid "Swift path:"
@@ -162,7 +162,7 @@ msgstr "faux"
 
 #: page.phpagiconf.php:102
 msgid "setuid:"
-msgstr ""
+msgstr "setuid:"
 
 #: page.phpagiconf.php:63 page.phpagiconf.php:70 page.phpagiconf.php:105
 msgid "true"
