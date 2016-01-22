@@ -162,7 +162,7 @@ msgstr "faux"
 
 #: page.phpagiconf.php:102
 msgid "setuid:"
-msgstr "setuid:"
+msgstr "setuid :"
 
 #: page.phpagiconf.php:63 page.phpagiconf.php:70 page.phpagiconf.php:105
 msgid "true"
