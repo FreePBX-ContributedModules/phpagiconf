@@ -10,145 +10,150 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 19:44-0400\n"
-"PO-Revision-Date: 2015-07-13 19:44-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2016-04-14 14:26+0200\n"
+"Last-Translator: Media <mousavi.media@gmail.com>\n"
+"Language-Team: Persian (Iran) "
+"<http://weblate.freepbx.org/projects/freepbx/phpagiconf/fa_IR/>\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
 
 #: page.phpagiconf.php:90
 msgid "Asterisk API settings:"
-msgstr ""
+msgstr "تنظیمات API استریسک:"
 
 #: page.phpagiconf.php:109
 msgid "Basedir:"
-msgstr ""
+msgstr "دایرکتوری پایه:"
 
 #: page.phpagiconf.php:112
 msgid "Cepstral config:"
-msgstr ""
+msgstr "پیکربندی شریک:"
 
 #: page.phpagiconf.php:118
 msgid "Cepstral voice:"
-msgstr ""
+msgstr "صدای شریک:"
 
 #: page.phpagiconf.php:60
 msgid "Debug:"
-msgstr ""
+msgstr "عیب یابی:"
 
 #: page.phpagiconf.php:102
 msgid "Drop privileges to owner of script."
-msgstr ""
+msgstr "رد سطوح دسترسی به مالک از این اسکریپت."
 
 #: page.phpagiconf.php:74
 msgid "Email where the errors will be sent."
-msgstr ""
+msgstr "ایمیلی که خطاها به آن ارسال میشوند."
 
 #: page.phpagiconf.php:60
 msgid "Enable PHPAGI debugging."
-msgstr ""
+msgstr "فعال سازی عیب یابی PHPAGI."
 
 #: page.phpagiconf.php:67
 msgid "Error handler:"
-msgstr ""
+msgstr "خطای کنترل:"
 
 #: functions.inc.php:38
 msgid "Error writing the phpagi.conf file."
-msgstr ""
+msgstr "خطا نوشتاری در فایل phpagi.conf."
 
 #: page.phpagiconf.php:100
 msgid "Fast AGI config:"
-msgstr ""
+msgstr "تنظیمات Fast AGI:"
 
 #: page.phpagiconf.php:85
 msgid "Festival config:"
-msgstr ""
+msgstr "تنظیمات Festival:"
 
 #: page.phpagiconf.php:78
 msgid "Hostname of the server:"
-msgstr ""
+msgstr "نام این سرور:"
 
 #: page.phpagiconf.php:78
 msgid "Hostname of this server."
-msgstr ""
+msgstr "نام این سرور."
 
 #: page.phpagiconf.php:74
 msgid "Mail errors to:"
-msgstr ""
+msgstr "ایمیل خطاها به:"
 
 #: page.phpagiconf.php:57
 msgid "Main config:"
-msgstr ""
+msgstr "تنظیمات اصلی:"
 
 #: page.phpagiconf.php:52
 msgid "PHPAGI Config:"
-msgstr ""
+msgstr "تنظیمات PHPAGI:"
 
 #: page.phpagiconf.php:109
 msgid "Path to AGI scripts folder."
-msgstr ""
+msgstr "مسیردهی به فولدر اسکریپت AGI."
 
 #: page.phpagiconf.php:114
 msgid "Path to cepstral TTS binary."
-msgstr ""
+msgstr "مسیر به TTS شریک باینری."
 
 #: page.phpagiconf.php:87
 msgid "Path to text2wave binary."
-msgstr ""
+msgstr "مسیر به متن به صدا باینری."
 
 #: page.phpagiconf.php:87
 msgid "Path to text2wave:"
-msgstr ""
+msgstr "مسیر متن به صدا:"
 
 #: page.phpagiconf.php:96
 msgid "Port to connect to manager."
-msgstr ""
+msgstr "پورت اتصال به مدیریت."
 
 #: page.phpagiconf.php:96
 msgid "Port:"
-msgstr ""
+msgstr "پورت:"
 
 #: page.phpagiconf.php:92
 msgid "Server to connect to."
-msgstr ""
+msgstr "سرور اتصال به."
 
 #: page.phpagiconf.php:92
 msgid "Server:"
-msgstr ""
+msgstr "سرور:"
 
 #: page.phpagiconf.php:122
 msgid "Submit Changes"
-msgstr ""
+msgstr "ارسال تغییرات"
 
 #: page.phpagiconf.php:114
 msgid "Swift path:"
-msgstr ""
+msgstr "مسیر Swift:"
 
 #: page.phpagiconf.php:118
 msgid "TTS Voice used."
-msgstr ""
+msgstr "صوت TTS مورد استفاده."
 
 #: page.phpagiconf.php:82
 msgid "Temporary directory for storing temporary output."
-msgstr ""
+msgstr "دایرکتوری موقت برای ذخیره خروجی موقت."
 
 #: page.phpagiconf.php:82
 msgid "Temporary directory:"
-msgstr ""
+msgstr "دایرکتوری موقت:"
 
 #: page.phpagiconf.php:67
 msgid "Use internal error handler."
-msgstr ""
+msgstr "استفاده از خطای داخلی کنترل کننده."
 
 #: page.phpagiconf.php:62 page.phpagiconf.php:69 page.phpagiconf.php:104
 msgid "false"
-msgstr ""
+msgstr "غلط"
 
 #: page.phpagiconf.php:102
+#, fuzzy
 msgid "setuid:"
-msgstr ""
+msgstr "setuid:"
 
 #: page.phpagiconf.php:63 page.phpagiconf.php:70 page.phpagiconf.php:105
 msgid "true"
-msgstr ""
+msgstr "درست"
