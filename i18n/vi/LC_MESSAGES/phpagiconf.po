@@ -10,146 +10,149 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 19:44-0400\n"
-"PO-Revision-Date: 2015-07-13 19:44-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-11 15:41+0200\n"
+"Last-Translator: PETER <ftek@ymail.com>\n"
+"Language-Team: Vietnamese "
+"<http://weblate.freepbx.org/projects/freepbx/phpagiconf/vi/>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
 
 #: page.phpagiconf.php:90
 msgid "Asterisk API settings:"
-msgstr ""
+msgstr "Cài đặt API Asterisk:"
 
 #: page.phpagiconf.php:109
 msgid "Basedir:"
-msgstr ""
+msgstr "Basedir:"
 
 #: page.phpagiconf.php:112
 msgid "Cepstral config:"
-msgstr ""
+msgstr "Cấu hình Cepstral:"
 
 #: page.phpagiconf.php:118
 msgid "Cepstral voice:"
-msgstr ""
+msgstr "Cepstral voice:"
 
 #: page.phpagiconf.php:60
 msgid "Debug:"
-msgstr ""
+msgstr "Gỡ lỗi:"
 
 #: page.phpagiconf.php:102
 msgid "Drop privileges to owner of script."
-msgstr ""
+msgstr "Thả các đặc quyền tới chủ kịch bản."
 
 #: page.phpagiconf.php:74
 msgid "Email where the errors will be sent."
-msgstr ""
+msgstr "Email mà các lỗi sẽ được gửi đến."
 
 #: page.phpagiconf.php:60
 msgid "Enable PHPAGI debugging."
-msgstr ""
+msgstr "Kích hoạt tính năng gỡ lỗi PHPAGI."
 
 #: page.phpagiconf.php:67
 msgid "Error handler:"
-msgstr ""
+msgstr "Trình xử lý lỗi:"
 
 #: functions.inc.php:38
 msgid "Error writing the phpagi.conf file."
-msgstr ""
+msgstr "Lỗi ghi tệp phpagi.conf."
 
 #: page.phpagiconf.php:100
 msgid "Fast AGI config:"
-msgstr ""
+msgstr "Fast AGI config:"
 
 #: page.phpagiconf.php:85
 msgid "Festival config:"
-msgstr ""
+msgstr "Festival config:"
 
 #: page.phpagiconf.php:78
 msgid "Hostname of the server:"
-msgstr ""
+msgstr "Tên Host của máy chủ:"
 
 #: page.phpagiconf.php:78
 msgid "Hostname of this server."
-msgstr ""
+msgstr "Tên host của máy chủ này."
 
 #: page.phpagiconf.php:74
 msgid "Mail errors to:"
-msgstr ""
+msgstr "Lỗi Email tới:"
 
 #: page.phpagiconf.php:57
 msgid "Main config:"
-msgstr ""
+msgstr "Main config:"
 
 #: page.phpagiconf.php:52
 msgid "PHPAGI Config:"
-msgstr ""
+msgstr "PHPAGI Config:"
 
 #: page.phpagiconf.php:109
 msgid "Path to AGI scripts folder."
-msgstr ""
+msgstr "Đường dẫn tới thư mục chứa các kịch bản AGI."
 
 #: page.phpagiconf.php:114
 msgid "Path to cepstral TTS binary."
-msgstr ""
+msgstr "Đường dẫn đến cepstral TTS binary."
 
 #: page.phpagiconf.php:87
 msgid "Path to text2wave binary."
-msgstr ""
+msgstr "Đường dẫn tới text2wave binary."
 
 #: page.phpagiconf.php:87
 msgid "Path to text2wave:"
-msgstr ""
+msgstr "Đường dẫn tới text2wave:"
 
 #: page.phpagiconf.php:96
 msgid "Port to connect to manager."
-msgstr ""
+msgstr "Cổng giao tiếp để kết nối tới trình quản lý."
 
 #: page.phpagiconf.php:96
 msgid "Port:"
-msgstr ""
+msgstr "Cổng giao tiếp:"
 
 #: page.phpagiconf.php:92
 msgid "Server to connect to."
-msgstr ""
+msgstr "Máy chủ để kết nối tới."
 
 #: page.phpagiconf.php:92
 msgid "Server:"
-msgstr ""
+msgstr "Máy chủ:"
 
 #: page.phpagiconf.php:122
 msgid "Submit Changes"
-msgstr ""
+msgstr "Gửi đi các thay đổi"
 
 #: page.phpagiconf.php:114
 msgid "Swift path:"
-msgstr ""
+msgstr "Đường dẫn Swift:"
 
 #: page.phpagiconf.php:118
 msgid "TTS Voice used."
-msgstr ""
+msgstr "TTS Voice đã sử dụng."
 
 #: page.phpagiconf.php:82
 msgid "Temporary directory for storing temporary output."
-msgstr ""
+msgstr "Danh mục tạm thời cho việc lưu các dữ liệu đầu ra tạm."
 
 #: page.phpagiconf.php:82
 msgid "Temporary directory:"
-msgstr ""
+msgstr "Danh mục tạm thời:"
 
 #: page.phpagiconf.php:67
 msgid "Use internal error handler."
-msgstr ""
+msgstr "Sử dụng trình xử lý lỗi nội bộ."
 
 #: page.phpagiconf.php:62 page.phpagiconf.php:69 page.phpagiconf.php:104
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #: page.phpagiconf.php:102
 msgid "setuid:"
-msgstr ""
+msgstr "setuid:"
 
 #: page.phpagiconf.php:63 page.phpagiconf.php:70 page.phpagiconf.php:105
 msgid "true"
-msgstr ""
+msgstr "true"
