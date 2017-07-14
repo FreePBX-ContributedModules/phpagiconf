@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 19:44-0400\n"
-"PO-Revision-Date: 2017-07-11 15:41+0200\n"
+"PO-Revision-Date: 2017-07-14 08:19+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/phpagiconf/vi/>\n"
@@ -27,7 +27,7 @@ msgstr "Cài đặt API Asterisk:"
 
 #: page.phpagiconf.php:109
 msgid "Basedir:"
-msgstr "Basedir:"
+msgstr "Basedir ( Base direction):"
 
 #: page.phpagiconf.php:112
 msgid "Cepstral config:"
@@ -35,7 +35,7 @@ msgstr "Cấu hình Cepstral:"
 
 #: page.phpagiconf.php:118
 msgid "Cepstral voice:"
-msgstr "Cepstral voice:"
+msgstr "Cepstral voice (Phần mềm nhận dạng giọng nói):"
 
 #: page.phpagiconf.php:60
 msgid "Debug:"
@@ -63,11 +63,11 @@ msgstr "Lỗi ghi tệp phpagi.conf."
 
 #: page.phpagiconf.php:100
 msgid "Fast AGI config:"
-msgstr "Fast AGI config:"
+msgstr "Fast AGI config ( Cấu hình fast AGI) :"
 
 #: page.phpagiconf.php:85
 msgid "Festival config:"
-msgstr "Festival config:"
+msgstr "Festival config ( Cấu hình festival):"
 
 #: page.phpagiconf.php:78
 msgid "Hostname of the server:"
@@ -83,11 +83,11 @@ msgstr "Lỗi Email tới:"
 
 #: page.phpagiconf.php:57
 msgid "Main config:"
-msgstr "Main config:"
+msgstr "Main config ( Cấu hình chính):"
 
 #: page.phpagiconf.php:52
 msgid "PHPAGI Config:"
-msgstr "PHPAGI Config:"
+msgstr "PHPAGI Config ( Cấu hình PHPAGI):"
 
 #: page.phpagiconf.php:109
 msgid "Path to AGI scripts folder."
@@ -151,7 +151,7 @@ msgstr "false"
 
 #: page.phpagiconf.php:102
 msgid "setuid:"
-msgstr "setuid:"
+msgstr "setuid ( Set User ID- Tiến trình thiết lập ID người dùng):"
 
 #: page.phpagiconf.php:63 page.phpagiconf.php:70 page.phpagiconf.php:105
 msgid "true"
